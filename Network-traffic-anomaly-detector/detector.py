@@ -2,8 +2,7 @@ from scapy.all import sniff, IP, TCP, UDP, ICMP
 from collections import defaultdict
 import time
 
-from utils import 
-(
+from utils import (
     detect_high_packet_rate,
     detect_sensitive_port_activity,
     detect_protocol_anomaly
